@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	font-family: Arial, Georgia, sans-serif;
+	font-style: normal;
+	line-height: 1.6;
+	background-color: #282828;
+}
+
+.wrapper {
+	width: 775px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+nav {
+	line-height: 1.2;
+	background-color: #8D2A3E;
+	padding: 12px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li {
+	float: left;
+	border-right: 2px solid #fff;
+	padding: 0 8px;
+}
+
+nav ul li:last-child {
+	border: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.center-block	{
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.left-content {
+	width: 65%;
+	float: left;
+}
+
+main {
+	padding: 0 33px;
+	padding-bottom: 22px;
+}
+
+main header {
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+main header img {
+	float: left;
+	margin-right: 10px;
+}
+
+main header .header-text {
+	float: left;
+}
+
+h1 {
+	font-family: "Times New Roman", Arial, sans-serif;
+	color: #FF7395;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1;
+	padding-top: 5px;
+}
+
+h1 span {
+	color: #8D2A3E;
+}
+
+h1 + blockquote {
+	color: #818383;
+	font-size: 12px;
+}
+
+main .article-1 {
+	background-color: #F9F9F9;
+	padding: 17px;
+	border: 1px solid #ddd;
+	margin-bottom: 25px;
+}
+
+main .article-1 h2 {
+	color: #8D2A3E;
+	font-size: 15px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+main .article-1 ul {
+	list-style: none;
+	margin: 20px 0 8px 5px;
+}
+
+main .article-1 ul li{
+	margin-left: 20px;
+	position: relative;
+}
+
+main .article-1 ul li:before{
+	content: ' ';
+	position: absolute;
+  width: 4px;
+  height: 4px;
+  left: -20px;
+  top: 6px;
+  background-color: #FF7C9C;
+}
+
+main .article-2 h2 {
+	color: #8D2A3E;
+	font-size: 15px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+
+main .article-2 img {
+	float: left;
+	padding: 4px;
+	border: 1px solid #ddd;
+	margin: 0 20px 10px 0;
+}
+
+main .article-2 p {
+	margin-bottom: 10px;
+}
+
+.right-content {
+	width: 35%;
+	float: left;
+}
+
+aside {
+	padding: 0 25px 0 15px;
+}
+
+aside .photo img {
+	width: 230px;
+	height: auto;
+	margin-bottom: -5px;
+}
+
+aside .photo .shadow {
+	height: 30px;
+	width: 230px;
+	background: radial-gradient(at top, #E8E8EA 10%, transparent 80%);
+}
+
+aside .about-this-site {
+	margin-bottom: 15px;
+	margin-top: 2px;
+	padding: 0 5px;	
+}
+
+aside .about-this-site h2 {
+	color: #8D2A3E;
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+aside .related-links {
+	width: 220px;
+	padding: 0 7px;
+}
+
+aside .related-links h2 {
+	color: #8D2A3E;
+	font-size: 14px;
+	margin-bottom: 9px;
+}
+
+aside .related-links ul {
+	list-style: none;
+	background-color: #F7F7F7;
+	padding: 7px 13px 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 35px;
+}
+
+aside .related-links ul li {
+	padding: 3px;	
+	position: relative;
+}
+
+aside .related-links ul li:before {
+	content: url("../images/paw-icon.png");
+	position: absolute;
+	top: 20%;
+	bottom: 0;
+}
+
+aside .related-links ul li a {
+	margin-left: 23px;
+	text-decoration: none;
+	color: #BE3855;
+	border-bottom: 1px solid #BE3855;
+}
+
+footer {
+	background-color: #F9F9F9;
+	padding: 15px 35px;
+	border: 1px solid #ddd;
+}
+
+footer p a {
+	text-decoration: none;
+	margin-right: 5px;
+	color: #BE3855;
+	border-bottom: 1px solid #BE3855;
+}
+
+footer p a:last-child {
+	border-right: none
+}

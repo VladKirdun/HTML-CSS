@@ -1,0 +1,288 @@
+@media (max-width: 319px) {
+	
+	.wrapper {
+		height: auto;
+	}
+
+	.wrapper__header .logo {
+		width: 300px;
+		height: 110px;
+		margin-bottom: 20px;
+	}
+
+	.wrapper__header .logo__semicircle {
+		width: 150px;
+		height: 150px;
+	}
+
+	.wrapper__header .logo__semicircle img {
+		width: 130px;
+		height: auto;
+		margin-top: 10px;
+	}
+
+	.wrapper__nav {
+		width: 300px;
+		top: 105px;
+		display: none;
+	}
+
+	.wrapper__nav-block ul {
+		width: auto;
+		display: block;
+	}
+
+	.wrapper__nav-block ul li {
+		display: block;
+		margin: 0 auto;
+		padding: 5px;
+	}
+
+	h1 {
+		font-size: 40px;
+		width: auto;
+		margin: 0 0 25px;
+	}
+
+	.wrapper__article {
+		width: auto;
+		margin: 0 10px 25px;
+		padding: 15px 25px;
+	}
+
+	.wrapper__article h3 {
+		font-size: 26px;
+		margin: 0 10px;
+	}
+
+	.main__nursery-supply {
+		position: static;
+		height: auto;
+	}
+
+	.main__nursery-supply #items {
+		position: static;
+		width: auto;
+		left: 0;
+		top: 0;
+		-webkit-transform: translate(0, 0);
+		-moz-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.items__wrap {
+		width: auto;
+		margin: 30px;
+	}
+
+	.main__community-benefits-content {
+		width: auto;
+		padding: 20px;
+		left: 0;
+		max-width: 500px;
+	}
+
+	.footer__references ul li {
+		margin: 5px 17px;
+	}
+
+	.footer__copyright {
+		padding: 10px;
+		text-align: center;
+	}
+
+	.footer__copyright h4 {
+		margin: 0;
+	}
+
+	.footer__copyright h4:last-child {
+		float: none;
+	}
+
+	.iconMenu {
+		display: block;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	
+	.wrapper {
+		height: auto;
+	}
+
+	.wrapper__header .logo {
+		width: 300px;
+		height: 110px;
+		margin-bottom: 20px;
+	}
+
+	.wrapper__header .logo__semicircle {
+		width: 150px;
+		height: 150px;
+	}
+
+	.wrapper__header .logo__semicircle img {
+		width: 130px;
+		height: auto;
+		margin-top: 10px;
+	}
+
+	.wrapper__nav {
+		width: 300px;
+		top: 105px;
+		display: none;
+	}
+
+	.wrapper__nav-block ul {
+		width: auto;
+		display: block;
+	}
+
+	.wrapper__nav-block ul li {
+		display: block;
+		margin: 0 auto;
+		padding: 5px;
+	}
+
+	h1 {
+		font-size: 40px;
+		width: auto;
+		margin: 0 0 25px;
+	}
+
+	.wrapper__article {
+		width: auto;
+		margin: 0 10px 25px;
+		padding: 15px 25px;
+	}
+
+	.wrapper__article h3 {
+		font-size: 26px;
+		margin: 0 10px;
+	}
+
+	.main__nursery-supply {
+		position: static;
+		height: auto;
+	}
+
+	.main__nursery-supply #items {
+		position: static;
+		width: auto;
+		left: 0;
+		top: 0;
+		-webkit-transform: translate(0, 0);
+		-moz-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.items__wrap {
+		width: auto;
+		margin: 30px;
+	}
+
+	.main__community-benefits-content {
+		width: auto;
+		padding: 20px;
+		left: 0;
+		max-width: 500px;
+	}
+
+	.footer__references ul li {
+		margin: 5px 17px;
+	}
+
+	.footer__copyright {
+		padding: 10px;
+		text-align: center;
+	}
+
+	.footer__copyright h4 {
+		margin: 0;
+	}
+
+	.footer__copyright h4:last-child {
+		float: none;
+	}
+
+	.iconMenu {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.wrapper {
+		padding: 0 20px;
+	}
+
+	.wrapper__nav {
+		width: 750px;
+	}
+
+	.wrapper__nav-block ul {
+		width: auto;
+	}
+
+	h1 {
+		font-size: 60px;
+		width: auto;
+	}
+
+	.wrapper__article {
+		width: auto;
+	}
+
+	.main__nursery-supply {
+		position: static;
+		height: auto;
+	}
+
+	.main__nursery-supply #items {
+		position: static;
+		width: auto;
+		left: 0;
+		top: 0;
+		-webkit-transform: translate(0, 0);
+		-moz-transform: translate(0, 0);
+		transform: translate(0, 0);
+		margin: 0 auto;
+	}
+
+	.items__wrap {
+		width: auto;
+		margin: 30px;
+	}
+
+	.main__community-benefits-content {
+		left: 50px;
+	}
+
+	.footer__copyright {
+		padding: 0 50px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.main__nursery-supply #items {
+		width: 990px;
+	}
+
+	.items__wrap {
+		width: auto;
+		margin: 0 40px 30px;
+	}
+
+	.main__community-benefits-content {
+		left: 100px;
+	}
+
+	.footer__copyright {
+		padding: 0 100px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+}

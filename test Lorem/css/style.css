@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans.eot');
+	src: url('OpenSans.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans.woff') format('woff'),
+		url('OpenSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	line-height: 1.3;
+	letter-spacing: .5px;
+	background-color: #4A99D3;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	padding: 70px 150px 0;
+}
+
+.modal-window {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 280px;
+	height: 160px;
+	background-color: #FAFB9A;
+	z-index: 999;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 70px;
+}
+
+nav {
+	position: fixed;
+	top: 70px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 890px;
+	z-index: -1;
+}
+
+nav ul {
+	list-style: none;
+	float: left;
+}
+
+main {
+	color: #fff;
+	padding: 45px 70px;
+	min-height: 500px;
+	position: relative;
+}
+
+.transparency {
+	background-color: #213F64;
+	opacity: 0.8;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	height: 100%;
+}
+
+main .cloud-above {
+	position: absolute;
+	top: -80px;
+	right: -150px;
+	z-index: 1;
+}
+
+.fon-img {
+	position: relative;
+}
+
+.fon-img img:nth-child(1) {
+	position: absolute;
+	top: 20px;
+	left: -200px;
+	z-index: -2;
+}
+
+.fon-img img:nth-child(2) {
+	position: absolute;
+	top: 100px;
+	right: -200px;
+	z-index: -2;
+}
+
+.fon-img img:nth-child(3){
+	position: absolute;
+	top: 220px;
+	left: 100px;
+	z-index: -2;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 26px;
+	margin-bottom: 25px;
+}
+
+footer {
+	width: 100%;
+	margin-top: 130px;
+	margin-bottom: 110px;
+	overflow: hidden;
+}
+
+footer img {
+	width: 20%;
+	float: left;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	height: 126px;
+	bottom: 0;
+	left: 0;
+	background: url('../images/trava.png');
+}
